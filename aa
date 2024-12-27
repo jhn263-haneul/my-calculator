@@ -1,0 +1,19 @@
+[1mdiff --git a/cal_main.c b/cal_main.c[m
+[1mindex 9bb8d72..c39745f 100644[m
+[1m--- a/cal_main.c[m
+[1m+++ b/cal_main.c[m
+[36m@@ -7,10 +7,10 @@[m [mint main(int argc, char *argv[])[m
+     int a = atoi(argv[1]);[m
+     int b = atoi(argv[2]);[m
+ [m
+[31m-    printf("%d + %d = %d\n", a, b, add(a, b));[m
+[31m-    printf("%d - %d = %d\n", a, b, sub(a, b));[m
+[31m-    printf("%d * %d = %d\n", a, b, mul(a, b));[m
+[31m-    printf("%d / %d = %d\n", a, b, dur(a, b));[m
+[32m+[m[32m    printf("%d + %d => %d\n", a, b, add(a, b));[m
+[32m+[m[32m    printf("%d - %d => %d\n", a, b, sub(a, b));[m
+[32m+[m[32m    printf("%d * %d => %d\n", a, b, mul(a, b));[m
+[32m+[m[32m    printf("%d / %d => %d\n", a, b, dur(a, b));[m
+ [m
+     return 0;[m
+ }[m
